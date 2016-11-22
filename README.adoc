@@ -1,0 +1,40 @@
+# NodeJs Express commands
+
+This projects is used for NodeJs and Express commands documentation
+
+## NodeJs documentation and download
+
+* link:https://nodejs.org/[What is NodeJs?]
+* link:https://nodejs.org/en/download/[Download]
+
+## Express documentation
+* link:https://expressjs.com[Express documentation]
+
+
+## Init
+
+  * Create a project
+  
+  $ mkdir app
+  $ cd app
+  
+  * Init project, create package.json
+  
+  $ npm init
+  
+  * Install express in the application, with --save add dependency in the project
+  
+  $ npm install express --save
+  
+## Express generator
+
+  * link:https://expressjs.com/en/starter/generator.html[Express generator] to quickly create an application skeleton.
+  
+  $ npm install express-generator -g
+  
+  $ express --view=jade app
+  
+  $ cd app
+  $ npm install
+  
+  $ npm start
